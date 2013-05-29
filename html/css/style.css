@@ -1,0 +1,239 @@
+* { margin: 0; padding: 0; outline: 0; }
+.Fleft { float: left!important; }
+.Fright { float: right!important; }
+.Middle { vertical-align: middle; }
+.nobdr { border: none !important; }
+.nobg { background: none !important; }
+.nobdr_top { border-top: none !important; }
+.nomargin { margin: 0px !important; }
+.nomargin-left { margin-left: 0px !important; }
+.nomargin_right{ margin-right: 0px !important; }
+.nopadding { padding: 0px !important; }
+.alignbottom { vertical-align: text-top; }
+img { border: 0px; }
+ul { list-style-type: none; padding: 0; margin: 0; }
+ul li { list-style: none; padding: 0; margin: 0; }
+a { text-decoration: none; outline: none; }
+aside, details, figcaption, figure, ins, summary, small, mark, title, video, footer, header, hgroup, nav, section, article { display: block; }
+.clear { padding: 0; margin: 0; clear: both; }
+h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; font-weight: normal !important; }
+html, body { height: 100%; width: 100%; padding: 0; margin: 0; min-width: 1000px; }
+.clearfix:after { clear: both; width: 100%; height: 0; content: ""; }
+.blue-color { color: #10a7d5; }
+/***************************************************
+			     font face styles
+********************************************/
+@font-face{font-family:"latoregular";font-style:normal;font-weight:normal;src:url("fonts/lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-reg-webfont.woff") format("woff"), url("fonts/lato-reg-webfont.ttf") format("truetype"), url("fonts/lato-reg-webfont.svg#latoregular") format("svg");}
+ @font-face {
+ font-family: 'latobold';
+ src: url('fonts/lato-bol-webfont.eot');
+ src: url('fonts/lato-bol-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/lato-bol-webfont.woff') format('woff'), url('fonts/lato-bol-webfont.ttf') format('truetype'), url('fonts/lato-bol-webfont.svg#latobold') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+/***************************************************
+			     main css start here
+********************************************/
+#page { width: 100%; margin: 0; padding: 0; }
+#header{width: 1000px; margin: auto; height:104px;}
+#header:after, .banner-wrap:after,.menu:after{ display:block; width:1000%; content:""; height:0; clear:both;}
+.head-right{ float:right; padding:9px 0 0 0; width:300px;}
+.head-right p{ text-transform:uppercase;  display:inline-block; color: #3a2e28; font: 12px/30px latoregular, Helvetica, sans-serif; float:right;}
+.head-right p span{font: 19px/29px latoregular, Helvetica, sans-serif;}
+.head-right p img{ padding-right:5px;}
+
+
+.search {float:right; margin:7px 0 0 0;}
+.search form {line-height:45px;}
+.search input[type="text"] { font-family:"latoregular"; font-size: 12px; color:#6D6C6C; text-transform:uppercase;	width:125px;	height:25px;	line-height:25px; border:1px solid #ceced0;	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;	border-radius: 5px; background:url(../images/search_icon.gif) no-repeat right center; padding:0 20px 0 5px;}
+.search .searchbtn {	background:url(../images/go-btn.gif) left top repeat-x; border-radius:3px;	height:26px;	border:none;	cursor:pointer; text-transform:uppercase; padding:0 3px; text-align:center; margin-left:5px; font:12px/26px 'latobold'; color:#353232;}
+
+.logo{ float:left;} 
+.contact-no{ float:right; background:#fff; padding:0 10px;}
+.contact-no p:first-child{ padding-right:10px;}
+.contact-no p img{ vertical-align:text-bottom; padding:0 7px 0 0;}
+.contact-no p{ text-transform:uppercase;  display:inline-block; color: #3a2e28; font: 12px/30px latoregular, Helvetica, sans-serif;}
+.contact-no p span{font: 16px/29px latoregular, Helvetica, sans-serif;}
+.contact-no p a{ text-decoration:none;  color: #3a2e28; }
+.contact-no p a:hover{ color:#e30f03;}
+#nav{width: 100%; margin: auto; background:#e30f03; height:30px;}
+.menu{ margin:0 auto; width:1000px;}
+.menu ul{ float:left;}
+.menu ul li{ background:url(../images/li-bdr.gif) right top repeat-y; font: 14px/30px latoregular, Helvetica, sans-serif; display:inline-block; text-transform:uppercase; padding:0 33px;}
+.menu ul li:first-child{ padding-left:0;}
+.menu ul li a{ color: #ffffff; display:block;}
+.menu ul li a:hover, #nav ul.menu li a.select{color: #fff300; }
+.menu .social-icon{ float:right; color: #ffffff; font: 12px/29px latoregular, Helvetica, sans-serif;}
+.menu .social-icon img { vertical-align:middle; padding:9px 5px 0 0;}
+.menu .social-icon span{float: left;    padding: 9px 10px 0;}
+#banner-wrap{width: 1000px; margin: auto;}
+.banner{ float:left; width:563px; }
+.banner img{border-radius:4px;}
+.quote-form{ width:416px; float:right; background:#edbf05 url(../images/form-bg.jpg) 0 0 repeat-x; height:300px;}
+.quote-form span.titel{ text-indent:20px; display:block; height:42px; background:#db1303;color: #ffffff; font: 21px/38px latoregular, Helvetica, sans-serif;  box-shadow: 0px 3px 5px -3px #000000;  -moz-box-shadow: 0px 3px 5px -3px #000000;   -webkit-box-shadow: 0px 3px 5px -3px #000000;   -ms-box-shadow: 0px 3px 5px -3px #000000;   -o-box-shadow: 0px 3px 5px -3px #000000;}
+.quote-form form{ width:374px; margin:0 auto; padding:10px 0 0 0;}
+.quote-form form p{ color: #242424; font: 16px/29px latoregular, Helvetica, sans-serif;}
+.quote-form form p select{ width:100%;  margin-top: 7px; border:1px solid #9c9c9c;padding: 10px 4px 10px 10px; background:fff; border-radius:4px; color: #535252;}
+.quote-form form ul{ padding-top: 24px;}.quote-form form ul li{ position:relative; width:71px; float:left; padding-left:3px;}
+.quote-form form ul li p{ float:left;} .quote-form form ul li span{ float:left;}
+.quote-form form ul li p input, .quote-form form ul li p select{  border-radius:2px; width: 55%;border:1px solid #9c9c9c; padding:6px;} .quote-form form ul li p select{ width:65px; margin-top:0;  padding-right: 2px;}
+.quote-form form ul li span{ float:left;}
+.quote-form form ul li + li:before{ color: #242424; font: 16px/29px latoregular, Helvetica, sans-serif; left:-17px; top:30px; width:20px; content:"kg"; position:absolute;} .quote-form form ul li+li+li:before{ content:"";}
+.quote-btn{ background:url(../images/quote-btn-bg.jpg) 0 0 repeat-x; height:56px; width:195px; margin: 20px auto 0 24%; color: #ffffff; font: 23px/54px latoregular, Helvetica, sans-serif; text-align:center; border:none; cursor:pointer;  }
+.quote-form form ul li + li + li + li + li{ margin:28px 0 0 0;}
+
+#main_wapper{ width:1000px; margin:0 auto; }
+.parcel_delivery{ width:1000px; margin:0 auto; background:url(../images/mid_line.gif) center bottom no-repeat; padding:0 0 32px 0;}
+.parcel_delivery h1{font-family:"latoregular"; font-size: 22px; color:#373737; padding:25px 0 0 0;}	
+.parcel_box{ width:306px; border:1px solid #e0e0e0; margin:10px 35px 0 0; float:left; padding:0 0 10px 0}	
+.parcel_box .step-img{ width:100%; text-align:center; float:left;}
+.parcel_box img{  margin:5px 0 0 0; }	
+.parcel_box p{ font-family: 'latoregular' ; font-size:13px; color:#575757; padding:5px 5px 0 0; float:left;}		
+.parcel_box p a{ font-family: 'latoregular' ; font-size:13px;  color:#e69d01; text-decoration:none;}		
+.parcel_box p img{ float:left; margin:0; padding:0 9px 0 21px;}	
+
+.mid_text_box{ width:295px; float:left; margin:20px 56px 0 0;}
+.mid_text_box figure{ width:100%; text-align:center;}	
+.mid_text_box h3{ font-family: 'latoregular' ; font-size:13px; color:#373737; text-transform:uppercase; padding:20px 0 0 0;}		
+.mid_text_box p{ font-family: 'latoregular' ; font-size:13px; color:#6d6c6c; padding:12px 0px 0 0; line-height:22px;}		
+.mid_text_box p a{ font-family: 'latoregular' ; font-size:13px;  color:#e69d01; text-decoration:none;}
+.live_chat{ width:100%; background:#f6f5f5; float:left; margin:10px 0 0 0; padding:0 0 10px 0;}
+.chat_box{ width:309px; float:left; margin:27px 22px 0 0;}
+.chat_box img{ float:left; padding:0 11px 0 10px;}
+.chat_box h4{ font-family: 'latoregular' ; font-size:20px; color:#493d3d;}
+.chat_box p{ font-family: 'latoregular' ; font-size:13px; color:#6d6c6c;  line-height:22px;}
+.chat_box p a{ text-decoration:none; float:right; padding:5px 0 0 0;}
+
+.couriers_box{ width:100%; float:left; margin:20px 0 0 0; padding-top:40px; background: url(../images/mid_line.gif) no-repeat  center top;
+    margin: 0 auto;}
+.couriers_box_left{ float:left; width:100%;}
+.couriers_box_left h4{ font-family: 'latoregular'; font-size:13px; color:#434343;}
+.Sending_box{  float:left; margin-right:60px;}
+.Sending_box ul{ list-style:none; padding:15px 0 0 0; float:left;}
+.Sending_box ul li{ float:left; padding:0 5px 0 0;}
+.Sending_box ul li img{ float:left;}
+
+.services_box2{ width:100%; float:left; margin:26px 0 10px 0;}
+.yahoo_box{ width:750px; float:left;}
+.box1{ width:238px; float:left; border:1px solid #e0e0e0; margin:16px 10px 0 0; text-align:center; padding:10px 0 10px 0;}
+.box1 img{ }
+.box1 h5{ font-family: 'latoregular' ; font-size:15px; color:#ec9000; padding:3px; line-height:20px;}
+.box1 p{ font-family: 'latoregular' ; font-size:13px; color:#6d6c6c;}
+.yahoo_box h4{ font-family: 'latoregular' ; font-size:20px; color:#6d6c6c; }
+
+.service-box-right{ float:right; }
+.service-box-right figure{ margin-bottom:5px;}
+
+.our-review{ width:196px; padding:0px 10px 5px 10px; float:left; border:1px solid #e0e0e0;}
+.our-review h5{ font-family: 'latobold' ; font-size:13px; padding-top:5px; color:#545353; line-height:25px; text-transform:uppercase;}
+.our-review p{ font-family: 'latoregular' ; font-size:13px; color:#6d6c6c; line-height:22px;}
+.our-review p a{ text-decoration:none; font-family: 'latoregular' ; font-size:13px; color:#dc0c00; line-height:22px;}
+
+.delivery-price{ width:98%; float:left; background:#fffa8e; padding:10px; margin:20px 0 0 0; border:1px solid #f9d301;}
+.delivery-price h3{ font:20px/20px 'latobold'; color:#353535;}
+.destination-list{ width:300px; float:left;  margin:15px 0 0 0;}
+.destination-list h5{font:16px/25px 'latobold'; color:#f9ed01; background:#c40d02; padding:7px;}
+.destination-list h5 span{font:16px/20px 'latoregular'; color:#fff;}
+.destination-list li{ float:left; width:96%; padding:5px; font:13px/22px 'latoregular'; color:#c40c02; border:1px solid #F9D301; border-top:none;}
+.destination-list li:nth-child(odd){ background:#FFFCB1;}
+
+.destination-list2{ width:135px; float:left;  margin:15px 0 0 0; text-align:center;}
+.destination-list2 h5{font:16px/25px 'latobold'; color:#f9ed01; background:#c40d02; padding:7px; border-left:1px solid #F9D301;}
+.destination-list2 h5 span{font:16px/20px 'latoregular'; color:#fff;}
+.destination-list2 li{ float:left; width:92%; padding:5px; font:13px/22px 'latoregular'; color:#c40c02; border:1px solid #F9D301; border-top:none;  border-left:none;}
+.destination-list2 li:nth-child(odd){ background:#FFFCB1;}
+
+#outer-footer{ width:100%; float:left; background: #edbf06 url(../images/foot-bg.jpg) left top repeat-x; margin:25px 0; padding:15px 0; border-radius:0 0 8px 8px; -moz-border-radius:0 0 8px 8px; -webkit-border-radius:0 0 8px 8px; -ms-border-radius:0 0 8px 8px; -o-border-radius:0 0 8px 8px;}
+.footer{ margin:0 12px;}
+
+.foot-links{ width:100%; float:left;}
+.foot-links ul{ width:100%; float:left; list-style:none;}
+
+.foot-links ul li{ float:left; padding:0 7px; color:#fff;}
+.foot-links ul li:first-child{ padding-left:0;}
+.foot-links ul li a{ text-decoration:none; font-size:12px; color:#fff; font-family: 'latoregular';}
+.foot-links ul li a:hover{ color:#efebea;}
+.foot-text{ width:350px; float:right;}
+.foot-text h5{ font-family: 'latobold'; font-size:16px; color:#4b4a4a;}
+.foot-text p{font-family: 'latoregular';  font-size:13px; line-height:23px; color:#000; padding:29px 0 0;}
+
+.copy-right{ width:100%; border-top:1px solid #b50c02; float:left; margin-top:16px; padding:10px 0 0 0;}
+.copy-right-left-text{ width:auto; float:left;}
+.copy-right-left-text p{font-family: 'latoregular';  font-size:11px; line-height:20px; color:#f8f8f8; }
+
+.foot-social-icon{ float:right;}
+.foot-social-icon{ float:right; color: #fff; font: 15px/20px latoregular;}
+.foot-social-icon img { vertical-align:middle; padding:9px 2px 0 0;}
+.foot-social-icon span{float: left; padding: 15px 10px 0;}
+
+
+
+#inner-page { width: 100%; margin: 0; background:#f9ed01;}
+
+/********************************signin_page_css********************************/
+.top_heading h1{ font:20px/25px 'latobold'; color:#D40C00; margin:20px 0 0 0;}
+.signin_box{ width:460px; height:280px; margin:40px auto; border:1px solid #f9cd01; background:#fff;}
+.signin_box h4{ font-family: 'latoregular' ; font-size:20px; color:#fff; line-height:35px; background:#d00e03 url(../images/signin_icon.png) 20px 9px no-repeat; padding:0 0 0 36px; margin-bottom:30px;}
+.signin-form{ width:94%; float:left; margin:15px 0 15px 23px;}
+.signin-form label{ font-family: 'latoregular'; color:#444444; font-size:14px; padding:0; width:100px; float:left;}
+.signin-form input{ width:280px; height:32px; float:left; border:1px solid #d9d8d8;  padding:0 5px;  font-family: 'latoregular'; color:#444444; font-size:12px;	-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; -0-border-radius:3px; -ms-border-radius:3px;}
+.signin-form input[type="button"]{ background:url(../images/signin-btn.gif) left top repeat-x; height:38px; width:auto; color:#fff; text-transform:uppercase; float:left; padding:0 15px; font:14px/38px 'latoregular'; -webkit-border-radius: 3px; -moz-border-radius: 3px;  -ms-border-radius: 3px;  -o-border-radius: 3px; border-radius: 3px; border:none; cursor:pointer; }
+.signin-form input[type="button"]:hover{background:url(../images/signin-hover-btn.gif) left top repeat-x; }
+.signin-form a{font:14px/32px 'latoregular'; color:#636363; padding-left:5px;}
+.signin-form a:hover{ color:#e80d00;}
+/********************************signin_page_css********************************/
+
+
+
+/********************************sign up page css start here********************************/
+.signup-form-wrap{ width:750px; margin:20px 0; background:#fff; padding:20px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; border:1px solid #ead9a0;}
+.signup-form-wrap h1{ font:20px/25px 'latobold'; color:#d40c00;}
+.signup-form-wrap-left{ width:300px; float:left; margin:20px 0 0 0; }
+.signup-form-wrap-left label {color: #32383F; font-family: 'latoregular'; font-size: 13px; text-align: left; width: 100%; float:left; margin:15px 0 0 0;}
+.signup-form-wrap-left input {background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #CECECE; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -ms-border-radius:3px; -webkit-border-radius:3px;  width: 270px; height:35px; margin:7px 0 0 0; font-family: 'latoregular'; font-size: 13px; line-height:35px; color: #32383F; padding:0 5px;}
+.signup-form-wrap-left input[type="button"]{ background:url(../images/signin-btn.gif) left top repeat-x; height:38px; width:auto; color:#fff; float:left; padding:0 10px; margin:16px 0 0 0; font:16px/38px 'latoregular'; -webkit-border-radius: 3px; -moz-border-radius: 3px;  -ms-border-radius: 3px;  -o-border-radius: 3px; border-radius: 3px; border:none; cursor:pointer; }
+.signup-form-wrap-left input[type="button"]:hover{background:url(../images/signin-hover-btn.gif) left top repeat-x;}
+.signup-form-wrap-right{ width:390px; float:right; margin:38px 0 0 0; }
+.signup-form-wrap-right h4 {color: #D40C00; font-family: 'latoregular'; font-size: 18px; border-bottom:1px solid #c70b00; padding:0 0 10px 0;}
+.signup-form-wrap-right p {color: #32383F; font-family: 'latoregular'; font-size: 13px; padding:20px 0 0 0; line-height:22px;}
+.signup-form-wrap-right p span {color: #32383F; font-family: 'latobold'; font-size: 15px;}
+.form_divider{ background:url(../images/form-divider.png) left top no-repeat; float:left; width:9px; height:306px; margin:34px 0 0 19px;}
+/********************************sign up page css end here********************************/
+
+/********************************sender page css start here********************************/
+.sender_form{ width:630px; margin:20px 0 0 0; background:#fff; padding:20px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; border:1px solid #ead9a0; float:left;}
+.sender_form h1{ font:20px/25px 'latobold'; color:#d40c00;}
+.sender_row{ width:300px; float:left; margin:10px 0 0 10px;}
+.sender_row label {color: #32383F; font-family: 'latoregular'; font-size: 13px; text-align: left; width: 100%; float:left; margin:15px 0 0 0;}
+.sender_row input {background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #e1e1e1; border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -ms-border-radius:3px; -webkit-border-radius:3px;  width: 215px; height:30px; margin:7px 0 0 0; padding:0 5px; font-family: 'latoregular'; font-size: 13px; line-height:30px; color: #32383F;}
+.sender_form input[type="button"]{ background:url(../images/signin-btn.gif) left top repeat-x; height:38px; width:auto; color:#fff; float:left; padding:0 10px; margin:16px 0 0 12px; font:16px/38px 'latoregular'; -webkit-border-radius: 3px; -moz-border-radius: 3px;  -ms-border-radius: 3px;  -o-border-radius: 3px; border-radius: 3px; border:none; cursor:pointer; }
+.sender_form input[type="button"]:hover{background:url(../images/signin-hover-btn.gif) left top repeat-x;}
+.sender_form span {color: #DF9800; font-family: 'latoregular'; font-size: 11px; padding:26px 0 0 11px; float:left;}
+
+.sender_right{ width:250px; float:right; border:1px solid #ead9a0; background:#D91004; padding:12px; margin:20px 0 0 0;}
+.sender_right h3{ font:18px/25px 'latoregular'; color:#fff; border-bottom:1px dotted #ccc; padding:0 0 6px 0;}
+.sender_right p{ font:13px/22px 'latoregular'; color:#fff; padding:10px 0 0 0;}
+.sender_right h4{ font:14px/25px 'latobold'; color:#fff; padding:8px 0 0 0;}
+.sender_right ul{ list-style-type:none; padding:5px 0 0 0;}
+.sender_right ul li{ font:13px/26px 'latoregular'; color:#fff; background:url(../images/li_bg.png) 0 9px no-repeat; float:left; padding:0 0 5px 15px; width:96%; border-bottom:1px solid #ba0a00;}
+.sender_right h5{ font:20px/20px 'latobold'; color:#f9ed01; padding:4px 0 0 0;}
+.sender_right h5 span{ font:13px/20px 'latoregular'; color:#fff	;}
+/********************************sender page css start here********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
